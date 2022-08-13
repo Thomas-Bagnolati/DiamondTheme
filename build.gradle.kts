@@ -55,6 +55,13 @@ qodana {
 }
 
 tasks {
+
+    runIde {
+        // to run the plugin with Android Studio
+        ideDir.set(file("C:\\Users\\tbagn\\AppData\\Local\\JetBrains\\Toolbox\\apps\\AndroidStudio\\ch-0\\212.5712.43.2112.8815526\\"))
+        // comment the line above to run the plugin with IntelliJ instead of Android Studio
+    }
+
     wrapper {
         gradleVersion = properties("gradleVersion")
     }
@@ -102,7 +109,7 @@ tasks {
 
     publishPlugin {
         dependsOn("patchChangelog")
-        token.set(System.getenv("PUBLISH_TOKEN"))
+        token.set(System.getenv("intellijPublishToken"))
         // pluginVersion is based on the SemVer (https://semver.org) and supports pre-release labels, like 2.1.7-alpha.3
         // Specify pre-release label to publish the plugin in a custom Release Channel automatically. Read more:
         // https://plugins.jetbrains.com/docs/intellij/deployment.html#specifying-a-release-channel

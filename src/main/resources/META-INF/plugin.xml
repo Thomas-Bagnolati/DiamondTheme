@@ -4,15 +4,19 @@
     <name>DiamondThemeIntelliJ</name>
     <vendor>thomas-bagnolati</vendor>
 
+    <description><![CDATA[
+        <p>This is a color theme for Intellij IDE</p><br><br>
+        <p> Diamond Theme</a>
+        ]]>
+    </description>
+
     <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.android</depends>
+
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.thomasbagnolati.diamondthemeintellij.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.thomasbagnolati.diamondthemeintellij.services.MyProjectService"/>
+        <themeProvider id="com.github.thomasbagnolati.diamondthemeintellij" path="/theme/diamond_dark.theme.json"/>
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.thomasbagnolati.diamondthemeintellij.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
+
 </idea-plugin>

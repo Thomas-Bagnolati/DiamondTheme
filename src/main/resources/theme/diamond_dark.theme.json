@@ -1,0 +1,108 @@
+{
+  "name": "Diamond Dark",
+  "dark": true,
+  "author": "Thomas Bagnolati",
+  "editorScheme": "theme/diamond_scheme_editor.xml",
+  "ui": {
+    "*": {
+      "background": "#161B22",
+      "borderColor": "#30363D",
+      "disabledBackground": "#1C2128",
+      "disabledBorderColor": "#0D1117",
+      "inactiveBackground": "#30363D",
+      "lightSelectionBackground": "#30363D",
+      "lightSelectionInactiveBackground": "#1C2128",
+      "lineSeparatorColor": "#30363D",
+      "selectionBackground": "#1D7158",
+      "selectionInactiveBackground": "#30363D",
+      "separatorColor": "#30363D",
+      "separatorForeground": "#30363D",
+      "underlineColor": "#F9826C",
+      "underlineHeight": 2
+    },
+    "CompletionPopup": {
+      "matchForeground": "#8B949E"
+    },
+    "Borders": {
+      "color": "#30363D",
+      "ContrastBorderColor": "#30363D"
+    },
+    "Button": {
+      "arc": 8,
+      "default": {
+        "endBackground": "#1F6FEB",
+        "endBorderColor": "00000000",
+        "focusedBorderColor": "#1F6FEB",
+        "startBackground": "#1F6FEB",
+        "startBorderColor": "00000000",
+        "foreground": "C9D1D9"
+      },
+      "endBackground": "#30363D",
+      "endBorderColor": "#30363D",
+      "focusedBorderColor": "#C9D1D9",
+      "shadowColor": "00000000",
+      "startBackground": "#30363D",
+      "startBorderColor": "#30363D"
+    },
+    "DefaultTabs": {
+      "background": "#161B22",
+      "hoverBackground": "#30363D",
+      "underlineColor": "#F9826C",
+      "underlinedTabBackground": "#1C2128",
+      "underlineHeight": 2
+    },
+    "EditorTabs": {
+      "background": "#161B22",
+      "inactiveUnderlineColor": "#1C2128",
+      "underlinedTabBackground": "#161B22",
+      "underlineColor": "#F9826C",
+      "underlineHeight": 2
+    },
+    "FileColor": {
+      "Yellow": "00000000"
+    },
+    "Popup": {
+      "Toolbar.background": "#1C2128",
+      "Header": {
+        "activeBackground": "#30363D",
+        "inactiveBackground": "#30363D"
+      }
+    },
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedBackground": "#30363D"
+      },
+      "List.separatorForeground": "#30363D",
+      "List.separatorColor": "#30363D"
+    },
+    "SidePanel": {
+      "background": "#1C2128"
+    },
+    "StatusBar": {
+      "borderColor": "#30363D",
+      "hoverBackground": "#0D1117"
+    },
+    "TabbedPane": {
+      "hoverColor": "#1C2128"
+    },
+    "Table": {
+      "stripeColor": "#1C2128"
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "#1C2128",
+        "borderColor": "#30363D",
+        "inactiveBackground": "#1C2128"
+      },
+      "Button": {
+        "hoverBackground": "#0D1117",
+        "selectedBackground": "#0D1117",
+        "selectedForeground": "#f0f6fc"
+      }
+    },
+    "Tree": {
+      "background": "#1C2128",
+      "rowHeight": 20
+    }
+  }
+}
