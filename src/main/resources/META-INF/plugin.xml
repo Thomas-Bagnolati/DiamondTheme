@@ -1,12 +1,12 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.thomasbagnolati.diamondthemeintellij</id>
-    <name>DiamondThemeIntelliJ</name>
+    <name>Diamond Theme</name>
     <vendor>thomas-bagnolati</vendor>
 
     <description><![CDATA[
-        <p>This is a color theme for Intellij IDE</p><br><br>
-        <p> Diamond Theme</a>
+        <p>This is a color scheme for Intellij IDE</p><br><br>
+        <p> Diamond Theme</p>
         ]]>
     </description>
 

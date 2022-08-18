@@ -6,7 +6,7 @@
 
 <!-- Plugin description -->
 
-# Diamond Theme ![alt text](src/main/resources/META-INF/pluginIcon.svg)
+# Diamond Theme
 
 Diamond Theme is a theme for Android or Intellij IDE
 <!-- Plugin description end -->
