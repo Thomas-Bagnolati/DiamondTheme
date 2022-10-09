@@ -1,1 +1,3 @@
-* Diamond Theme
+# Diamond Theme
+
+Andoid Studio Theme
