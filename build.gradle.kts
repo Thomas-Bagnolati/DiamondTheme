@@ -8,7 +8,7 @@ plugins {
     // Kotlin support
     id("org.jetbrains.kotlin.jvm") version "1.7.10"
     // Gradle IntelliJ Plugin
-    id("org.jetbrains.intellij") version "1.8.0"
+    id("org.jetbrains.intellij") version "1.9.0"
     // Gradle Changelog Plugin
     id("org.jetbrains.changelog") version "1.3.1"
     // Gradle Qodana Plugin
@@ -58,7 +58,7 @@ tasks {
 
     runIde {
         // to run the plugin with Android Studio
-        ideDir.set(file("C:\\Users\\tbagn\\AppData\\Local\\JetBrains\\Toolbox\\apps\\AndroidStudio\\ch-0\\212.5712.43.2112.8815526\\"))
+        ideDir.set(file("C:\\Users\\tbagn\\AppData\\Local\\JetBrains\\Toolbox\\apps\\AndroidStudio\\ch-0\\213.7172.25.2113.9014738\\"))
         // comment the line above to run the plugin with IntelliJ instead of Android Studio
     }
 

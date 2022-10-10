@@ -2,6 +2,7 @@
     <colors>
         <option name="CARET_ROW_COLOR" value="2f3239" />
         <option name="CONSOLE_BACKGROUND_KEY" value="1c2128" />
+        <option name="DOCUMENTATION_COLOR" value="1c2128" />
         <option name="GUTTER_BACKGROUND" value="161b22" />
         <option name="INDENT_GUIDE" value="2f2f2f" />
         <option name="RIGHT_MARGIN_COLOR" value="313131" />
@@ -125,7 +126,7 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="bf9bff" />
+                <option name="FOREGROUND" value="a7dad2" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
