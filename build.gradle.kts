@@ -58,7 +58,7 @@ tasks {
 
     runIde {
         // to run the plugin with Android Studio
-        ideDir.set(file("C:\\Users\\tbagn\\AppData\\Local\\JetBrains\\Toolbox\\apps\\AndroidStudio\\ch-0\\213.7172.25.2113.9014738\\"))
+        ideDir.set(file("C:\\Users\\tbagn\\AppData\\Local\\JetBrains\\Toolbox\\apps\\AndroidStudio\\ch-0\\221.6008.13.2211.9477386\\"))
         // comment the line above to run the plugin with IntelliJ instead of Android Studio
     }
 
