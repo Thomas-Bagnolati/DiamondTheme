@@ -1,0 +1,44 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>com.github.thomasbagnolati.diamondthemeintellij</id>
+<!--    <id>DiamondTheme</id>-->
+    <version>2.0.0</version>
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>Diamond Theme</name>
+    <category>UI</category>
+    <idea-version since-build="22.3"/>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="t.bagnolati@gmail.com">thomas-bagnolati</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+
+    <description><![CDATA[
+
+        <h1>Diamond Theme</h1>
+        <p>Diamond Theme is a dark color theme.</p>
+        <ul>
+            <li>See on <a href="https://plugins.jetbrains.com/plugin/19690-diamond-theme">Market</a></li>
+            <li>See on <a href="https://github.com/Thomas-Bagnolati/DiamondTheme">GitHub</a></li>
+        </ul>
+
+        ]]></description>
+
+    <!-- Short summary of new features and bugfixes in the latest plugin version.
+         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+    <change-notes><![CDATA[
+   Version 2
+  ]]></change-notes>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="DiamondTheme" path="/theme/DiamondTheme.theme.json"/>
+    </extensions>
+</idea-plugin>
