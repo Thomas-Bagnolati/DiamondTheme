@@ -323,7 +323,6 @@
       "selectionBackground": "Grey3",
       "transparentSelectionBackground": "#FFFFFF1A"
     },
-
     "MemoryIndicator": {
       "allocatedBackground": "Grey1",
       "usedBackground": "#35538F80"
@@ -400,8 +399,8 @@
       "foreground": "Dark6",
       "matchForeground": "Blue8",
       "Advertiser": {
-        "foreground": "Grey7",
-        "background": "Grey3"
+        "foreground": "Grey10",
+        "background": "Grey4"
       }
 
     },
